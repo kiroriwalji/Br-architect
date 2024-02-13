@@ -1,0 +1,238 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family:sans-serif ;
+}
+.main{
+    display: flex;
+    background-color: #fff;
+    position: sticky;
+    top: 0px;
+    
+}
+.nav{
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    height: 10%;
+    width: 100%;
+    
+    
+    
+}
+.navitem{
+    
+    margin-left: 40%;
+    height: 10%;
+    
+}
+ol{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10%;
+    padding: 10px;
+    position: absolute;
+    right: 0px;
+}
+
+ol li a{
+
+    text-decoration: none;
+    color: black;
+}
+li{
+  
+    list-style-type: none;
+    margin: 0px 20px;
+}
+.mainpic{
+    background-image: url(https://www.w3schools.com/w3images/architect.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+   
+}
+.br{
+    width: 6%;
+    padding:8px 16px;
+    font-size: 50px;
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+}
+.architect{
+    font-size: 50px;
+    color: white;
+    font-weight: 100;
+}
+
+@media(max-width:768px){
+    .nav{
+        background-color: antiquewhite;
+        font-size: 10px;
+
+    }
+    .li{
+        font-size: 10px;
+        display: none;
+    }
+    
+}
+
+
+
+
+
+
+
+
+.projects{
+    height: 100px;
+    display:flex;
+    align-items: center;
+    /* border: 2px solid black; */
+    padding: 20px;
+}
+.row1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 40vh;
+    /* border: 2px solid black; */
+
+}
+.row11{
+    margin: 5px;
+    height: 90%;
+    width: 23%;
+    /* border: 2px solid black; */
+    background-image: url(https://www.w3schools.com/w3images/house5.jpg);
+    background-size: cover;
+}
+.row12{
+    margin: 5px;
+    height: 90%;
+    width: 23%;
+    /* border: 2px solid black; */
+    background-image: url(https://www.w3schools.com/w3images/house2.jpg);
+    background-size: cover;
+
+}
+.row13{
+    margin: 5px;
+    height: 90%;
+    width: 23%;
+    /* border: 2px solid black; */
+    background-image: url(https://www.w3schools.com/w3images/house3.jpg);
+    background-size: cover;
+
+}
+.row14{
+    margin: 5px;
+    height: 90%;
+    width: 23%;
+    /* border: 2px solid black; */
+    background-image: url(https://www.w3schools.com/w3images/house4.jpg);
+    background-size: cover;
+
+}
+.h{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:black ;
+    color: white;
+    width: 30%;
+   
+    font-size: small;
+    padding: 3%;
+}
+.about
+{
+    height: 100px;
+    font-size:large;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+.aboutitem{
+    display: flex;
+    text-align: left;
+    padding: 20px;
+}
+.author
+{
+    display: flex;
+    flex-wrap: wrap;
+    height: 500px;
+    justify-content: space-evenly;
+}
+.r1{
+    height: 90%;
+    
+    width: 22%;
+    margin: 2px;
+    
+}
+.r1pic{
+    height: 45%;
+    display: flex;
+    background-size: cover;
+}
+.name{
+    height: 10%;
+    margin-top: 10px;
+}
+.ceo{
+    height: 10%;
+    display: flex;
+    align-items: center;
+}
+.aboutceo{
+    height: 20%;
+   
+}
+
+.contact{
+    margin: 20px;
+    height: 10vhvh;
+    
+}
+.formm{
+    
+    display: flex;
+    height: 60vh;
+
+    
+}
+form{
+    width: 100%;
+    padding: 20px;
+    margin: 10px;
+    width: 100%;
+}
+input{
+    height: 50px;
+    padding: 0px 10px;
+    width: 90%;
+}
+.lastpic{
+    border: 2px solid black;
+    height: auto;
+    background-size: cover;
+}
+.lastbar{
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+
+    height: 100px;
+}
+
+
